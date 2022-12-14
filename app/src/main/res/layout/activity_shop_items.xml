@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shop_items"
+    android:orientation="horizontal"
+    android:id="@+id/shooseorder"
+    >
+
+    <ImageView
+        android:id="@+id/imageicon"
+        android:layout_width="125dp"
+        android:layout_height="150dp"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/shoose_name"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/shoose_price"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+</LinearLayout>

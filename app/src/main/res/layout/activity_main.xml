@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bgregistration"
+    >
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:paddingTop="40dp"
+        android:src="@drawable/shopping_icon"
+        android:layout_gravity="center"
+        ></ImageView>
+    <Button
+        android:id="@+id/join_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Join Now"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/have_account_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Alrady have an account ? Login"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
